@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima app</title>
+    <link rel="icon" href="Images/cloud_sun_icon_175282.svg">
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="css/common.css">
+</head>
+
+<body>
+    <header>
+        <h1>
+            <img src="Images/cloud_sun_icon_175282.svg" alt=""width="50px" height="50px">
+            <span>Clima App</span>
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Clima</a></li>
+                <li><a href="/add-city.html">Agregar Ciudad</a></li>
+                <li class="current-page"><a href="/help.html">Ayuda</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Contenido principal de la página -->
+    <main>
+        <h2>Ayuda Clima App v1.0</h2>
+        <b><p>Esta App te permite consultar el clima de una ciudad en particular utilizando la API de <a href="https://openweathermap.org/api" target="_blank"> OpenWeatherMap.</a></p>
+        <p>Para poder consultar el clima, primero deberá <a href="add-city.html" target="_blank">Agregar una ciudad</a> y luego
+            seleccionar la Ciudad en cuestión desde la página <a href="index.html" target="_blank">Clima.</a></p></b>
+        <section id="form-city-list">
+            <form action="">
+                <label for="NOMBRE"><b>Nombre:</b></label>
+                <input type="NOMBRE" name="NOMBRE" id="NOMBRE" />
+                <br>
+                <label for="EMAIL"><b>Email:</b></label>
+                <input type="EMAIL" name="EMAIL" id="EMAIL" />
+                <br>
+                <b>Mensaje: </b><textarea name="" id="" cols="30" rows="10"></textarea>
+                <br>                
+                <button>Limpiar</button> <button>Enviar</button> 
+            </form>
+            <!-- Sección donde se debe colocar el formulario, con el select y el
+botón de consultar -->
+        </section>
+        <section id="section-weather-result">
+            <!-- Sección donde se debe mostrar el clima de la ciudad -->
+        </section>
+    </main>
+    <footer>
+        <p>
+            Desarrollado con ♥ - LC2
+        </p>
+    </footer>
+</body>
+
+</html>
